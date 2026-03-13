@@ -124,6 +124,12 @@
         @yield('content')
     </main>
 
+    <footer class="text-center">
+        <div class="container">
+            <p class="small text">Hubungi atmint : admin@mail.com</p>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

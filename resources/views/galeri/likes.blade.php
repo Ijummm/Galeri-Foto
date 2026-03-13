@@ -22,7 +22,6 @@
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <h5 class="card-title m-0 fw-bold small text-uppercase">{{ $foto->judulFoto }}</h5>
                         
-                        {{-- Tombol Like Minimalis --}}
                         <div class="d-flex align-items-center">
                             <form action="{{ route('like.toggle', $foto->fotoID) }}" method="POST" class="m-0">
                                 @csrf
